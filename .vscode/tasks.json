@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Clean & Configure",
+            "type": "shell",
+            "command": "rm -rf build/* && cmake -S . -B build -G Ninja",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake: Build",
+            "type": "shell",
+            "command": "cmake --build build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "hide": false,
+            "label": "Flash (BMP)",
+            "options": {
+                "statusbar": {
+                    "label": "$(zap) Flash",
+                }
+            },
+            "type": "shell",
+            "command": "gdb-multiarch",
+            "args": [
+                "-nx",
+                "--batch",
+                "-ex", "target extended-remote /dev/serial/by-id/usb-Black_Magic_Debug_Black_Magic_Probe__ST-Link_v2__v2.0.0-292-ge1505ef8-dirty_C3BD9710-if00",
+                "-ex", "monitor swdp_scan",
+                "-ex", "att 1",
+                "-ex", "load",
+                "-ex", "compare-sections",
+                "-ex", "kill",
+                "build/due_usbasp_programmer.elf"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

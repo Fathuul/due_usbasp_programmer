@@ -1,0 +1,49 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "Atmel_SAM3X8E",
+            "includePath": [
+                "include",
+                "system/CMSIS/CMSIS/Include",
+                "system/CMSIS/Device/ATMEL",
+                "system/CMSIS/Device/ATMEL/sam3xa/include",
+                "system/libsam",
+                "system/libsam/include",
+                "lib/usb/include",
+                "lib/delay",
+                "lib/avr_spi",
+                "lib/hw_spi",
+                "lib/usbasp",
+                "lib/avr_devices"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "src",
+                    "lib/usb/src",
+                    "lib/avr_spi",
+                    "lib/hw_spi",
+                    "lib/usbasp",
+                    "lib/avr_devices"
+                ]
+            },
+            "defines": [
+                "__SAM3X8E__",
+                "BOARD=ARDUINO_DUE_X",
+                "F_CPU=84000000"
+            ],
+            "compilerPath": "arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
