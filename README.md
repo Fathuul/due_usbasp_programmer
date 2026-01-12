@@ -35,10 +35,6 @@ This project turns an Arduino Due into a robust AVR In-System Programmer (ISP) c
 
 > **Important:** Since the Arduino Due operates at **3.3V** and most AVR targets operate at **5V**, a level shifting circuit is **required**.
 
-### Wiring Diagram
-
-![Arduino Due USBasp Wiring Diagram and Circuit Schematic](images/due_usbasp_programmer.png)
-
 ### Pin Mapping (Arduino Due SPI Header)
 
 | Signal | Due Pin | Description |
